@@ -1,0 +1,7 @@
+The following code was adapted from the example code for the RAZOR 9 DOF IMU by
+Sparkfun. In its present state, the code configures the IMU to report
+orientation data, acceleration data, and a vector clock time stamp over the
+primary serial port (the one accessible via micro-usb) and a secondary serial
+port configured over pins 10 and 11. The IMU can also receive commands over both
+serial ports. For instance, sending an 'a' over the secondary serial port
+triggers a reinitialization sequence. 
